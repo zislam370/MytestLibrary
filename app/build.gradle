@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.zislam370'
@@ -7,7 +7,6 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.zahid.mytestlibrary"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
